@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wahteg Wareg</title>
+     <link rel="stylesheet" href="style.css">
+    <style>
+        /* Menyembunyikan semua bagian konten secara default */
+        .content-section {
+            display: none;
+        }
+        
+        /* Menampilkan konten yang aktif */
+        .active {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Wahteg Wareg</h1>
+        <nav>
+            <ul>
+                <li><a href="#sejarah" data-target="sejarah">Sejarah</a></li>
+                <li><a href="#menu" data-target="menu">Menu</a></li>
+                <li><a href="#login-form" data-target="login-form">Login</a></li>
+                <li><a href="#kontak" data-target="kontak">Kontak</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Halaman Utama -->
+    <div id="main-content">
+        <section id="sejarah" class="content-section">
+            <h2>Sejarah Warteg Ini</h2>
+            <p>Warteg – Indonesia memiliki banyak sekali industri makanan dengan harga yang variatif, namun sebagian masyarakat memilih warteg sebagai tempat pengisi perut lapar. Tempat makan sederhana ini sudah tidak asing di kalangan masyarakat, khususnya daerah perkotaan. Pasalnya warteg di kenal dengan menyajikan berbagai menu komplit sederhana dengan harga terjangkau. Tempat usaha ini pun mudah di jumpai di sisi jalan ataupun gang-gang kecil, mengingat target pasarnya rata-rata mahasiswa atau para pekerja biasa.</p>
+            <br>
+            <p>Umumnya warung satu ini buka dari pagi hingga malam, bahkan ada saja yang buka selama 24 jam sehari. Walaupun sederhana, rasa dari warung ini sudah jelas enak dan mengenyangkan. Mungkin memulai usaha warteg bisa menjadi peluang bisnis, kenapa konsep warteg ini berbeda dengan yang lain arena kita memaduka kebudayaan lama dengan baru. dimana konsep tempatnya inilah yang kita sesuaikan dengan zaman sekarang tapi kita masih terus menggunakan resep nenek moyang kita untuk masakkan tradisional di wahteg kami. terutama bagi anda yang tinggal di sekitaran kampus ini adalah peluang bisnis yang paling menguntungkan sera menjanjikan.</p>
+            <img src="https://th.bing.com/th/id/OIP.xjHVHFoaKkmiVgz1_pik3gHaER?rs=1&pid=ImgDetMain">
+            <img src="https://th.bing.com/th/id/OIP.4nTgG4DXzkFy8RQQ-g2g-wHaFj?rs=1&pid=ImgDetMain">
+        </section>
+        
+        <section id="menu" class="content-section">
+            <h2>Menu Kami</h2>
+            <div class="menu-container">
+                <div class="menu-card">
+                    <img src="https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/c5c34190-d4eb-40d8-b1f6-f39ead6edca4_Go-Biz_20221118_191300.jpeg" alt="Aneka Nasi">
+                    <h3>Aneka Nasi</h3>
+                    <p>Rp 5.000 - Rp 25.000</p>
+                    <p>Nasi Putih Rp. 5.000, Nasi Kebuli Rp 25.000, Nasi Goreng Rp. 15.000</p>
+                </div>
+                <div class="menu-card">
+                    <img src="bakso bakar.png" alt="Aneka Tambahan">
+                    <h3>Aneka Tambahan</h3>
+                    <p>Rp 2.000 - Rp 15.000</p>
+                    <p>Kerupuk Rp 2.000, Sambosa Daging Rp 10.000, Bakso Bakar Rp 15.000, Emping Rp 5.000</p>
+                </div>
+                <div class="menu-card">
+                    <img src="image.png" alt="Aneka Ayam">
+                    <h3>Aneka Ayam</h3>
+                    <p>Rp 15.000 - Rp 18.000</p>
+                    <p>Paket Nasi+Ayam Bakar Rp 18.000 & Paket Nasi+Ayam Goreng Rp 15.000</p>
+                </div>
+                <div class="menu-card">
+                    <img src="https://3.bp.blogspot.com/-jtI2_f-Wm4M/V99PzlfU8XI/AAAAAAAAAkQ/XMt84LHifZc8MvJGvJJefmwTONDrHFmjgCLcB/s1600/tea.jpg" alt="Aneka Minuman">
+                    <h3>Aneka Minuman</h3>
+                    <p>Rp 2.000 - Rp 10.000</p>
+                    <p>Air Putih Rp 3.00, Teh Tawar Rp. 2.000, Teh Manis Rp 4.000, Lemon Tea Rp 8.000 & Jus Mangga Rp 10.000</p>
+                </div>
+            </div>
+        </section>
+        
+        <section id="kontak" class="content-section">
+            <h2>Kontak Kami</h2>
+            <p>Alamat: Jl. Setia No. 123, Kota Jakarta Pusat</p>
+            <p>Telepon: (021) 12345678</p>
+            <p>Email: <a href="mailto:info@wartegwareg.com">info@wartegwareg.com</a></p>
+            <p>Kontak Person: Budi Santoso</p>
+        </section>
+    </div>
+
+    <!-- Form Login -->
+    <div id="login-form" class="content-section">
+        <header>
+            <h1>Login ke Warteg Wareg</h1>
+        </header>
+        <section id="login">
+            <div class="login-container">
+                <form>
+                    <h2>Login Member</h2>
+                    <label for="username">Username:</label>
+                    <input type="text" id="username" name="username" required>
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" name="password" required>
+                    <button type="submit">Login</button>
+                </form>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Warteg Wareg</p>
+    </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const sections = document.querySelectorAll('.content-section');
+            const navLinks = document.querySelectorAll('nav a');
+
+            function showSection(sectionId) {
+                sections.forEach(section => {
+                    section.classList.remove('active');
+                    if (section.id === sectionId) {
+                        section.classList.add('active');
+                    }
+                });
+            }
+
+            navLinks.forEach(link => {
+                link.addEventListener('click', function(event) {
+                    event.preventDefault();
+                    const targetId = this.getAttribute('data-target');
+                    showSection(targetId);
+                });
+            });
+
+            // Show default section
+            const defaultSectionId = 'sejarah';
+            showSection(defaultSectionId);
+        });
+    </script>
+</body>
+</html>
